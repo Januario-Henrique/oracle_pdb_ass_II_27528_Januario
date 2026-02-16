@@ -1,7 +1,7 @@
 
 # Oracle PDB Assignment II
 
-**Student:** Januario  
+**Student:** Januario Henrique 
 **Student ID:** 27528  
 **Course:** Database Development with PL/SQL (INSY 8311)  
 **Instructor:** Eric Maniraguha  
@@ -72,13 +72,13 @@ GRANT CREATE SESSION, CREATE TABLE, CREATE VIEW,
 ✅ User ready for future class work
 
 ### Screenshots
-![Task 1 - PDB Creation](screenshots/task1_pdb_creation.png)
+![Task 1 - PDB Creation](screenshots/task1_pdb_creation.jpeg)
 *Figure 1.1: PDB creation command*
 
-![Task 1 - User Created](screenshots/task1_user_created.png)
+![Task 1 - User Created](screenshots/task1_user_created.jpeg)
 *Figure 1.2: User verification in PDB*
 
-![Task 1 - PDB Open State](screenshots/task1_pdb_open.png)
+![Task 1 - PDB Open State](screenshots/task1_pdb_open.jpeg)
 *Figure 1.3: PDB opened in READ WRITE mode*
 
 ---
@@ -121,10 +121,10 @@ SELECT name, open_mode FROM v$pdbs;
 ✅ Verified deletion - PDB no longer appears in v$pdbs
 
 ### Screenshots
-![Task 2 - Temporary PDB Creation](screenshots/task2_pdb_creation.png)
+![Task 2 - Temporary PDB Creation](screenshots/task2_pdb_creation.jpeg)
 *Figure 2.1: Temporary PDB created and opened*
 
-![Task 2 - PDB Deletion](screenshots/task2_pdb_deletion.png)
+![Task 2 - PDB Deletion](screenshots/task2_pdb_deletion.jpeg)
 *Figure 2.2: PDB successfully deleted*
 
 ---
@@ -162,7 +162,7 @@ SELECT DBMS_XDB_CONFIG.GETHTTPPORT() FROM dual;   -- Result: 0
 ✅ Username visible in the session
 
 ### Screenshot
-![Task 3 - OEM Dashboard](screenshots/task3_oem_dashboard.png)
+![Task 3 - OEM Dashboard](screenshots/task3_oem_dashboard.jpeg)
 *Figure 3.1: Oracle Enterprise Manager showing database status and PDB information*
 
 ---
@@ -194,12 +194,12 @@ The work presented in this repository represents my genuine effort to complete A
 oracle_pdb_ass_II_27528_januario/
 ├── README.md
 └── screenshots/
-    ├── task1_pdb_creation.png
-    ├── task1_user_created.png
-    ├── task1_pdb_open.png
-    ├── task2_pdb_creation.png
-    ├── task2_pdb_deletion.png
-    └── task3_oem_dashboard.png
+    ├── task1_pdb_creation.jpeg
+    ├── task1_user_created.jpeg
+    ├── task1_pdb_open.jpeg
+    ├── task2_pdb_creation.jpeg
+    ├── task2_pdb_deletion.jpeg
+    └── task3_oem_dashboard.jpeg
 ```
 
 ---
@@ -212,4 +212,4 @@ oracle_pdb_ass_II_27528_januario/
 https://www.linkedin.com/in/januario-henrique-98335a314/
 
 
-
+             Excellence is never an accident; it is the result of discipline, commitment, and integrity.
